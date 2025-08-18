@@ -1,0 +1,14 @@
+package com.shubh.learning.Junit_01;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class CalcTest {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

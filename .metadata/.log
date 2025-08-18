@@ -1,0 +1,111 @@
+!SESSION 2025-05-17 14:43:26.868 -----------------------------------------------
+eclipse.buildId=4.35.0.20250306-0811
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/admin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/admin/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-05-17 14:43:29.939
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-05-17 14:44:03.568
+!MESSAGE Logback config file: /Users/admin/Desktop/Java/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-05-17 14:49:30.893
+!MESSAGE Can't resolve Archetype com.shubh.learning:Junit-01:0.0.1-SNAPSHOT
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.shubh.learning:Junit-01:pom:0.0.1-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.core.ui.internal.wizards.MavenProjectWizardArchetypePage.lambda$18(MavenProjectWizardArchetypePage.java:726)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Contains: Missing com.shubh.learning:Junit-01:pom:0.0.1-SNAPSHOT
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2025-05-17 14:49:30.934
+!MESSAGE Could not resolve artifact com.shubh.learning:Junit-01:pom:0.0.1-SNAPSHOT
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2025-05-17 14:49:30.934
+!MESSAGE Missing com.shubh.learning:Junit-01:pom:0.0.1-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-05-17 15:53:06.421
+!MESSAGE Can't resolve Archetype com.shubh:Junit5-06:0.0.1-SNAPSHOT
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.shubh:Junit5-06:pom:0.0.1-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.core.ui.internal.wizards.MavenProjectWizardArchetypePage.lambda$18(MavenProjectWizardArchetypePage.java:726)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Contains: Missing com.shubh:Junit5-06:pom:0.0.1-SNAPSHOT
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2025-05-17 15:53:06.421
+!MESSAGE Could not resolve artifact com.shubh:Junit5-06:pom:0.0.1-SNAPSHOT
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2025-05-17 15:53:06.421
+!MESSAGE Missing com.shubh:Junit5-06:pom:0.0.1-SNAPSHOT
+!SESSION 2025-05-18 20:07:13.975 -----------------------------------------------
+eclipse.buildId=4.35.0.20250306-0811
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/admin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/admin/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-05-18 20:07:16.530
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-05-18 20:07:22.767
+!MESSAGE Logback config file: /Users/admin/Desktop/Java/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-05-18 20:08:32.421
+!MESSAGE Can't resolve Archetype jdbc:jdbc01:0.0.1
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact jdbc:jdbc01:pom:0.0.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.core.ui.internal.wizards.MavenProjectWizardArchetypePage.lambda$18(MavenProjectWizardArchetypePage.java:726)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Contains: Missing jdbc:jdbc01:pom:0.0.1
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2025-05-18 20:08:32.421
+!MESSAGE Could not resolve artifact jdbc:jdbc01:pom:0.0.1
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2025-05-18 20:08:32.421
+!MESSAGE Missing jdbc:jdbc01:pom:0.0.1
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-05-18 20:11:08.216
+!MESSAGE Can't resolve Archetype com.learning.jdbc:jdbc:0.0.1-SNAPSHOT
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.learning.jdbc:jdbc:pom:0.0.1-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.core.ui.internal.wizards.MavenProjectWizardArchetypePage.lambda$18(MavenProjectWizardArchetypePage.java:726)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Contains: Missing com.learning.jdbc:jdbc:pom:0.0.1-SNAPSHOT
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2025-05-18 20:11:08.217
+!MESSAGE Could not resolve artifact com.learning.jdbc:jdbc:pom:0.0.1-SNAPSHOT
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2025-05-18 20:11:08.217
+!MESSAGE Missing com.learning.jdbc:jdbc:pom:0.0.1-SNAPSHOT
+!SESSION 2025-05-20 15:41:28.616 -----------------------------------------------
+eclipse.buildId=4.35.0.20250306-0811
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/admin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/admin/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-05-20 15:41:31.871
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-05-20 15:41:36.617
+!MESSAGE Logback config file: /Users/admin/Desktop/Java/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.0.20241001-1350.xml
