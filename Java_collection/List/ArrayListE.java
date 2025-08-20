@@ -13,24 +13,32 @@ import java.util.List;
 
 
 public class ArrayListE{
-    public static void main(String[] args){
-        List<String> arrayList = new ArrayList<>();
-        arrayList.add("Shubham");
-        arrayList.add("Prathamesh");
+     public static void main(String[] args){
+      
+        // List<String> arrayList = new ArrayList<>();
+        // arrayList.add("Shubham");
+        // arrayList.add("Prathamesh");
         
 
-        for(String fruit : arrayList){
-            System.out.println(fruit);
+        // for(String fruit : arrayList){
+        //     System.out.println(fruit);
+        // }
+
+
+        // System.out.println("Printing using iterator");
+
+        // Iterator<String> it =  arrayList.iterator();
+
+        // while(it.hasNext()){
+        //     System.out.println(it.next());
+        // } String str = "Shubham";
+        String str = "Shubham";
+        String ans = "";
+
+        for(int i = str.length();i>=0;i--){
+            ans += str.charAt(i);
         }
-
-
-        System.out.println("Printing using iterator");
-
-        Iterator<String> it =  arrayList.iterator();
-
-        while(it.hasNext()){
-            System.out.println(it.next());
-        }
+        System.out.println(ans);
        
     }
 }
